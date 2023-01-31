@@ -22,3 +22,6 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+PrintArray(array);
+FormingArrayOfThreeOrFewerSymbols(array, newArray);
+PrintArray(newArray);
